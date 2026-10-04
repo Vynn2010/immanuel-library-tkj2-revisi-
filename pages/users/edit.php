@@ -22,7 +22,7 @@
     ?>
 
       <div class="app-content">
-        <form method="" action="">
+        <form method="POST" action="../../actions/users/update.php">
           <input type="hidden" name="id" value="<?= $user['id'] ?>">
           <div class="form-card">
             <div class="form-section-title">Data Pengguna</div>
