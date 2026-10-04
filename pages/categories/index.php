@@ -8,7 +8,8 @@
 </head>
 <body>
   <?php
-  $category = ["id" => 1, "name" => "Fiksi", "description" => "Novel dan cerita rekaan", "total_books" => 3];
+  require '../../repositories/category-repository.php';
+    $categories = getCategories();
   ?>
   <div class="app-shell">
   <?php require_once('../../components/admin/sidebar.php'); ?>
@@ -44,6 +45,7 @@
               </tr>
             </thead>
             <tbody>
+              <?php foreach ($categories as $category) : ?>
               <tr>
                 <td>
                   <div class="cell-primary">
@@ -60,6 +62,7 @@
                   </div>
                 </td>
               </tr>
+              <?php endforeach; ?>
             </tbody>
           </table>
         </div>
