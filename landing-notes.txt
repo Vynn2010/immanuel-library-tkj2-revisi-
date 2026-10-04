@@ -4,3 +4,6 @@
 - Memudahkan pencarian kesalahan pada header maupun footer, karena kedua hal tersebut terpisah.
 
 •	Perhatikan halaman-halaman admin (Buku, Kategori, Penulis, Pengguna, Profil) pada Bagian 2 - bagian mana pada halaman-halaman tersebut yang mengalami masalah yang sama seperti header/footer sebelum dipisah?
+-Markup sidebar dan topbar ditulis ulang secara identik di setiap file halaman.
+-Data ditulis sebagai variabel array mentah di dalam file halaman.
+-Variabel-variabelnya bukan diambil dari repository berbentuk function.

@@ -15,7 +15,8 @@ $title = "Beranda - Immanuel Library";
 </head>
 
 <body>
-  <?php include "./components/landing/header.php"?>
+  
+  <?php require_once "./components/landing/header.php"?>
 
   <!-- ============ HERO ============ -->
   <section class="hero">
@@ -102,7 +103,8 @@ $title = "Beranda - Immanuel Library";
       </div>
     </div>
   </section>
-  <?= include "./components/landing/footer.php" ?>
+ 
+   <?= require_once "./components/landing/footer.php" ?>
 </body>
 
 </html>
