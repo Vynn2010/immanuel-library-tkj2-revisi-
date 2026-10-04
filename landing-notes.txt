@@ -1,0 +1,6 @@
+•	Apa keuntungan memisahkan header dan footer menjadi file component tersendiri, dibandingkan menuliskannya langsung berulang-ulang di index.php?
+- Membuat tampilan index lebih sederhana dan enak dilihat.
+- Memudahkan pencarian header dan footer daripada di gabung dengan index.
+- Memudahkan pencarian kesalahan pada header maupun footer, karena kedua hal tersebut terpisah.
+
+•	Perhatikan halaman-halaman admin (Buku, Kategori, Penulis, Pengguna, Profil) pada Bagian 2 - bagian mana pada halaman-halaman tersebut yang mengalami masalah yang sama seperti header/footer sebelum dipisah?
