@@ -104,7 +104,7 @@ $title = "Beranda - Immanuel Library";
     </div>
   </section>
  
-   <?= require_once "./components/landing/footer.php" ?>
+   <?php require_once "./components/landing/footer.php" ?>
 </body>
 
 </html>
