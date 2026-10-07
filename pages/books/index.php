@@ -13,7 +13,6 @@
   require '../../repositories/book-repository.php';
     $books = getBooks();
   ?>
-  ?>
   <div class="app-shell">
   <?php require_once('../../components/admin/sidebar.php'); ?>
 
